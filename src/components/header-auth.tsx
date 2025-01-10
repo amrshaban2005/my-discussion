@@ -3,7 +3,6 @@ import {
   NavbarItem,
   Button,
   Avatar,
-  popover,
   PopoverTrigger,
   PopoverContent,
   Popover,
@@ -11,7 +10,6 @@ import {
 
 import { useSession } from "next-auth/react";
 import * as actions from "@/actions";
-import { auth } from "@/auth";
 
 export default function HeaderAuth() {
   const session = useSession();
